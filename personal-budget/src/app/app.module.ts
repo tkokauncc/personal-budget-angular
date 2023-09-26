@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule} from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,7 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { P404Component } from './p404/p404.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { ContactComponent } from './contact/contact.component';
-import { D3chartComponent } from './d3chart/d3chart.component';
+import { D3ChartComponent } from './d3chart/d3chart.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,7 @@ import { D3chartComponent } from './d3chart/d3chart.component';
     P404Component,
     BreadcrumbsComponent,
     ContactComponent,
-    D3chartComponent
+    D3ChartComponent
   ],
   imports: [
     BrowserModule,
